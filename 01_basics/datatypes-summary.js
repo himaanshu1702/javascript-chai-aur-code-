@@ -52,3 +52,27 @@ console.log(typeof anotherId);
        Arrays  =>  object
        Function  =>  function
        Object  =>  object          */
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) , Heap (Non - Primitive)
+
+let myYoutubename = "himanshuSingh"
+
+let anothername = myYoutubename
+anothername = "himanshu1702"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "himanshu@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
