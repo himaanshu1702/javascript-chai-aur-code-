@@ -32,4 +32,4 @@ console.log(url.replace('%20', '-'))
 
 console.log(url.includes('sundar'))
 
-console.log(gameName.split('-'));
+console.log(gameName.split('-'));  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
