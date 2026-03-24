@@ -64,7 +64,7 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const {courseInstructor: instructor} = course    // Destructuring !!
 
 // console.log(courseInstructor);
 console.log(instructor);
@@ -80,3 +80,7 @@ console.log(instructor);
     {},
     {}
 ]
+
+// jasonformatter.org
+
+//randomuser api
