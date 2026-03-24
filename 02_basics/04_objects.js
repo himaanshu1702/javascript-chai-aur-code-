@@ -53,7 +53,7 @@ users[1].email
  console.log(Object.entries(tinderUser)); // show keys values in array  , 
  // Output => [ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));  ==>  // basically it will check that hasOwnProperty is in tinderUser or not. 
 
 
 const course = {
