@@ -2,10 +2,12 @@
 function sayMyName(){
     console.log("H");
     console.log("I");
-    console.log("T");
-    console.log("E");
+    console.log("M");
+    console.log("A");
+    console.log("N");
     console.log("S");
     console.log("H");
+    console.log("U");
 }
 
 // sayMyName()
@@ -28,12 +30,12 @@ const result = addTwoNumbers(3, 5)
 
 
 function loginUserMessage(username = "sam"){
-    if(!username){
+    if(!username){                                                  // ! = undefine
         console.log("PLease enter a username");
         return
     }
     return `${username} just logged in`
 }
 
-// console.log(loginUserMessage("hitesh"))
-// console.log(loginUserMessage("hitesh"))
+// console.log(loginUserMessage("himanshu"))
+// console.log(loginUserMessage("himanshu"))
